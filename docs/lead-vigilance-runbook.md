@@ -44,3 +44,34 @@ Manage it at claude.ai → Routines (pause/edit/delete).
 
 Once 2–3 are connected, the routine picks them up automatically — no prompt change
 needed. Items 4–5 make the Gmail sweep light up even without Zapier.
+
+## Monitoring record — 2026-07-26 through 2026-07-30
+
+The watchdog ran every 2 hours across this window. **Every sweep returned zero
+signals**: no `facebookmail.com` mail, no TikTok notification mail, no
+"new lead / lead form / instant form" subjects, and no GUÍA/GUIDE mentions from
+any social sender. The Zapier Facebook Lead Ads and TikTok Lead Generation
+connections were re-checked several times and remained unlinked throughout.
+
+**Read this as an instrumentation result, not a demand result.** Every capture
+path listed in the status table above is still off, so a lead could have arrived
+via a Meta Instant Form or a TikTok comment and left no trace the watchdog could
+see. Zero observed ≠ zero happened.
+
+## Texas nonresident license — 2026-07-31 checkpoint
+
+`marketing/tiktok/texas-license-timing-2026-aep.md` sets the decision rule:
+activate Texas only if TikTok demand data justifies it by 2026-07-31, otherwise
+hold and keep the 2026-08-01 → 08-15 application window as the fallback.
+
+**Recommendation: do not buy Texas on this checkpoint.** The decision rule asks
+for evidence of Texas demand, and no engagement data was captured at all — which
+fails the rule on evidence, without proving demand is absent. Buying a
+nonresident license plus carrier appointments and certifications on an unmeasured
+hunch is the expensive error here; waiting is cheap and reversible, since the
+doc's own timeline keeps Texas viable for AEP through mid-August.
+
+**To reopen the decision before the window closes (2026-08-15):** turn on the
+TikTok/Meta notification paths above, then give the watchdog ~10 days of real
+comment data. If Texas mentions show up in that window, the Aug 1–15 application
+slot is still open and the original timeline holds.
