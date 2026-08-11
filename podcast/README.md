@@ -15,8 +15,11 @@ automate NotebookLM — it automates **everything on both sides of it** and make
 the manual middle as short and as safe as possible.
 
 ```
-Summary of Benefits (PDF)
-        │  a human transcribes it, once per plan-year
+                            python podcast/cli.py new-plan
+                                    │  writes a blank spec, all rows labeled
+                                    ▼
+Summary of Benefits (PDF)   ──▶  a human types the figures in
+        │
         ▼
 plans/<slug>.json           ← the only thing the generator trusts
         │  python podcast/cli.py build
@@ -43,6 +46,14 @@ confident spoken sentence a member acts on. A spec takes about fifteen minutes
 and carries its own provenance, so every number in an episode traces back to a
 page a person actually read.
 
+`new-plan` scaffolds the boring half of that: it writes every line a South
+Florida MA-PD Summary of Benefits is expected to fill, in listening order, with
+the Spanish benefit *names* already written — a label like "Specialist visit"
+carries no plan-specific risk. Every factual field is left as `[SOB]`, which is
+blocking in both languages, so a scaffold cannot be recorded by accident.
+Nothing about the plan itself is guessed, including whether a rule like a
+referral requirement applies at all.
+
 **The catalog fingerprints the benefits the audio was made from.** Change a
 copay in a spec and the approved episode goes stale automatically: it drops out
 of `check` and shows up flagged in `status`. You cannot send outdated benefits by
@@ -52,6 +63,8 @@ re-approving them.
 ## Use it
 
 ```
+python podcast/cli.py new-plan --plan-id H1036-001 --name "Gold Plus" \
+       --carrier Humana --year 2026 --type HMO --county Miami-Dade
 python podcast/cli.py build                       # every plan, both languages
 python podcast/cli.py status                      # what exists, what is stale
 python podcast/cli.py record-audio <slug> en --file audio/x.m4a
@@ -63,7 +76,8 @@ python podcast/cli.py check       <slug> en       # safe to send right now?
 `<slug>` is `<plan-id>-<year>` lowercased: `h1234-001-2026`.
 
 Full walkthrough, including the NotebookLM steps and what to listen for:
-**`docs/notebooklm-workflow.md`**.
+**`docs/notebooklm-workflow.md`**. Which plans to do first, and why 2027 cannot
+be transcribed before October: **`docs/plan-roster.md`**.
 
 ## Spanish is a first-class output, not a translation pass
 
@@ -92,12 +106,13 @@ The pipeline is ready to run. It has not been cleared to launch.
 | Path | What it is |
 |---|---|
 | `planspec.py` | The plan-year model, validation, and the translation-gap rules |
+| `skeleton.py` | The standard SOB row set and the blank-spec scaffold |
 | `episode.py` | Kit generation — source doc, steering prompt, delivery, review |
 | `catalog.py` | Episode states, approval gates, and staleness detection |
 | `cli.py` | The commands above |
 | `plans/` | One JSON spec per plan-year (`example-*` is a fake template) |
 | `kits/` | Generated output, git-ignored — rebuild it, don't edit it |
-| `docs/` | Workflow and compliance |
+| `docs/` | Workflow, compliance, and the plan roster |
 
 ## Tests
 
@@ -105,4 +120,4 @@ The pipeline is ready to run. It has not been cleared to launch.
 cd podcast && python -m pytest -q
 ```
 
-101 tests, no dependencies beyond `pytest`.
+132 tests, no dependencies beyond `pytest`.

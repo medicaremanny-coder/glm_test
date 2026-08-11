@@ -85,6 +85,13 @@ CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
 # It is deliberately loud: it must never survive to a recorded episode.
 TRANSLATION_MARKER = "[TRADUCIR]"
 
+# Marker standing in for a fact nobody has read off the SOB yet. `skeleton.py`
+# writes it into every factual field of a new spec; it must never survive to a
+# recorded episode either, in any language. Deliberately not matched by
+# _LANGUAGE_NEUTRAL_COST below, so an unfilled cost also registers as an
+# untranslated one.
+SOB_PLACEHOLDER = "[SOB]"
+
 
 class PlanSpecError(ValueError):
     """Raised when a plan spec is missing or malformed."""
@@ -347,9 +354,33 @@ class PlanSpec:
                 gaps.append(f"benefits[{index}] ({benefit.name}): {field_name}")
         return gaps
 
+    def unfilled(self) -> List[str]:
+        """Human-readable list of fields still holding :data:`SOB_PLACEHOLDER`.
+
+        Unlike :meth:`untranslated`, this is language-independent: an unread
+        copay is missing from the English episode exactly as much as from the
+        Spanish one. A scaffold from ``skeleton.py`` reports every factual field
+        here until a human types the real values.
+        """
+        gaps: List[str] = []
+        if SOB_PLACEHOLDER in self.sob_source:
+            gaps.append("plan.sob_source")
+        for index, benefit in enumerate(self.benefits):
+            for field_name in ("name", "member_cost", "detail"):
+                value = getattr(benefit, field_name) or ""
+                if SOB_PLACEHOLDER in value:
+                    gaps.append(f"benefits[{index}] ({benefit.name}): {field_name}")
+        return gaps
+
     def ready_for(self, lang: str) -> bool:
-        """True when a kit in ``lang`` would contain no translation markers."""
+        """True when a kit in ``lang`` would contain no blocking markers.
+
+        Both marker kinds count. English has no translation gaps by definition,
+        but it can still be missing figures nobody has read off the SOB.
+        """
         _require_language(lang)
+        if self.unfilled():
+            return False
         return True if lang == "en" else not self.untranslated()
 
     # ------------------------------------------------------------------

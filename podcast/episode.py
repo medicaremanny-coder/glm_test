@@ -23,11 +23,12 @@ placed as literal text at the top and bottom so it survives into the audio.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List
 
 from planspec import (
+    SOB_PLACEHOLDER,
     TRANSLATION_MARKER,
     Benefit,
     PlanSpec,
@@ -102,16 +103,25 @@ class EpisodeKit:
         translation_gaps: Spanish fields still needing a human. Non-empty means
             the kit contains :data:`~podcast.planspec.TRANSLATION_MARKER` and
             must not be recorded.
+        unfilled: Fields still holding :data:`~podcast.planspec.SOB_PLACEHOLDER`
+            — figures nobody has read off the Summary of Benefits yet. Blocking
+            in both languages, unlike ``translation_gaps``.
     """
 
     slug: str
     lang: str
     files: Dict[str, str]
     translation_gaps: List[str]
+    unfilled: List[str] = field(default_factory=list)
 
     @property
     def complete(self) -> bool:
-        return not self.translation_gaps
+        return not self.translation_gaps and not self.unfilled
+
+    @property
+    def blocking(self) -> List[str]:
+        """Everything standing between this kit and a recording session."""
+        return self.unfilled + self.translation_gaps
 
     def write(self, root: Path | str) -> Path:
         """Write the kit to ``root/<slug>/<lang>/`` and return that directory."""
@@ -127,15 +137,22 @@ def build_kit(spec: PlanSpec, lang: str) -> EpisodeKit:
     _require_language(lang)
 
     gaps = spec.untranslated() if lang == "es" else []
+    unfilled = spec.unfilled()
 
     files = {
         "source.md": _source_document(spec, lang),
         "steering.txt": _steering_prompt(spec, lang),
         "delivery.md": _delivery_message(spec, lang),
-        "review.md": _review_checklist(spec, lang, gaps),
+        "review.md": _review_checklist(spec, lang, gaps, unfilled),
     }
 
-    return EpisodeKit(slug=spec.slug(), lang=lang, files=files, translation_gaps=gaps)
+    return EpisodeKit(
+        slug=spec.slug(),
+        lang=lang,
+        files=files,
+        translation_gaps=gaps,
+        unfilled=unfilled,
+    )
 
 
 # ----------------------------------------------------------------------
@@ -365,7 +382,9 @@ def _phone_suffix(phone: str) -> str:
 # ----------------------------------------------------------------------
 
 
-def _review_checklist(spec: PlanSpec, lang: str, gaps: List[str]) -> str:
+def _review_checklist(
+    spec: PlanSpec, lang: str, gaps: List[str], unfilled: List[str]
+) -> str:
     lines = [
         f"# Accuracy review — {spec.display_name()} ({lang})",
         "",
@@ -404,6 +423,19 @@ def _review_checklist(spec: PlanSpec, lang: str, gaps: List[str]) -> str:
             "- [ ] Benefit names were not left in English mid-sentence.",
             "",
         ]
+
+    if unfilled:
+        lines += [
+            "## BLOCKED — figures nobody has read off the SOB",
+            "",
+            f"This kit contains `{SOB_PLACEHOLDER}` markers, so it is still a "
+            "scaffold rather than a plan. Open the Summary of Benefits, type the "
+            "real values into the plan spec, and rebuild. Delete rows this plan "
+            "does not offer instead of marking them $0:",
+            "",
+        ]
+        lines += [f"- {gap}" for gap in unfilled]
+        lines += [""]
 
     if gaps:
         lines += [

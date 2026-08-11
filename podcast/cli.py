@@ -23,11 +23,16 @@ from typing import List, Sequence
 from catalog import Catalog, CatalogError
 from episode import build_kit
 from planspec import PlanSpec, PlanSpecError, SUPPORTED_LANGUAGES, load_all
+from skeleton import SOB_PLACEHOLDER, blank_spec
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_PLANS = HERE / "plans"
 DEFAULT_KITS = HERE / "kits"
 DEFAULT_CATALOG = HERE / "catalog.json"
+
+# Manny's home service area. Benefits vary by county inside one contract, so
+# this is a starting point to correct per plan, not a safe default to ignore.
+DEFAULT_COUNTIES = ("Miami-Dade", "Broward")
 
 
 def _portable(path: Path) -> str:
@@ -42,6 +47,42 @@ def _load_specs(target: Path) -> List[PlanSpec]:
     if target.is_dir():
         return load_all(target)
     return [PlanSpec.load(target)]
+
+
+def cmd_new_plan(args: argparse.Namespace) -> int:
+    spec = blank_spec(
+        plan_id=args.plan_id,
+        plan_name=args.name,
+        carrier=args.carrier,
+        plan_year=args.year,
+        plan_type=args.type,
+        counties=args.county or list(DEFAULT_COUNTIES),
+        verified_by=args.by,
+        verified_on=args.on,
+    )
+
+    out_dir = Path(args.out)
+    destination = out_dir / f"{spec.slug()}.json"
+    if destination.exists() and not args.force:
+        print(
+            f"error: {destination} already exists; pass --force to overwrite it",
+            file=sys.stderr,
+        )
+        return 1
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    spec.save(destination)
+
+    gaps = len(spec.untranslated())
+    print(f"scaffolded {spec.display_name()}")
+    print(f"  -> {destination}")
+    print(f"  {len(spec.benefits)} rows, {gaps} field(s) to fill in")
+    print(
+        f"\nNext: open it against the Summary of Benefits and replace every "
+        f"{SOB_PLACEHOLDER}.\nDelete rows this plan does not offer rather than "
+        f"marking them $0. Then `build`."
+    )
+    return 0
 
 
 def cmd_build(args: argparse.Namespace) -> int:
@@ -60,17 +101,21 @@ def cmd_build(args: argparse.Namespace) -> int:
                 print(f"built  {kit.slug}/{lang}  -> {directory}")
             else:
                 blocked += 1
+                reasons = []
+                if kit.unfilled:
+                    reasons.append(f"{len(kit.unfilled)} unread from the SOB")
+                if kit.translation_gaps:
+                    reasons.append(f"{len(kit.translation_gaps)} untranslated")
                 print(
                     f"BLOCKED {kit.slug}/{lang} -> {directory} "
-                    f"({len(kit.translation_gaps)} untranslated field(s); "
-                    f"see review.md)"
+                    f"({', '.join(reasons)}; see review.md)"
                 )
 
     catalog.save()
 
     if blocked:
         print(
-            f"\n{blocked} kit(s) contain untranslated fields. Do not record "
+            f"\n{blocked} kit(s) still have blocking fields. Do not record "
             f"audio for those until the plan spec is filled in.",
             file=sys.stderr,
         )
@@ -143,6 +188,27 @@ def build_parser() -> argparse.ArgumentParser:
         help="plan spec file or directory (default: podcast/plans)",
     )
     sub = parser.add_subparsers(dest="command", required=True)
+
+    p_new = sub.add_parser(
+        "new-plan", help="scaffold a blank plan spec ready to fill from an SOB"
+    )
+    p_new.add_argument("--plan-id", required=True, help="contract-PBP, e.g. H1036-001")
+    p_new.add_argument("--name", required=True, help="marketed plan name")
+    p_new.add_argument("--carrier", required=True)
+    p_new.add_argument("--year", required=True, type=int, help="contract year")
+    p_new.add_argument("--type", required=True, help="HMO, PPO, HMO D-SNP, PDP, ...")
+    p_new.add_argument(
+        "--county",
+        action="append",
+        help=f"service-area county (repeatable; default: {', '.join(DEFAULT_COUNTIES)})",
+    )
+    p_new.add_argument("--by", default="Manny Leon", help="who will verify the spec")
+    p_new.add_argument("--on", default=date.today().isoformat())
+    p_new.add_argument("--out", default=str(DEFAULT_PLANS), help="plans directory")
+    p_new.add_argument(
+        "--force", action="store_true", help="overwrite an existing spec"
+    )
+    p_new.set_defaults(func=cmd_new_plan)
 
     p_build = sub.add_parser("build", help="generate episode kits")
     p_build.add_argument(
