@@ -1,2 +1,6 @@
 __pycache__/
 *.py[cod]
+.pytest_cache/
+
+# Generated episode kits — rebuild with `python podcast/cli.py build`
+podcast/kits/

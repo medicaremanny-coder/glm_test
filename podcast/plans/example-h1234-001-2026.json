@@ -1,0 +1,96 @@
+{
+  "plan_id": "H1234-001",
+  "plan_name": "Example Advantage Plus",
+  "carrier": "Example Health",
+  "plan_year": 2026,
+  "plan_type": "HMO",
+  "counties": ["Miami-Dade", "Broward"],
+  "sob_source": "EXAMPLE — not a real plan. Replace with the real SOB filename and page numbers.",
+  "sob_verified_on": "2026-08-11",
+  "verified_by": "Manny Leon",
+  "disclaimer_en": "This is a plain-language walkthrough of your plan's Summary of Benefits. Your Evidence of Coverage is the official document and controls in any disagreement. We do not offer every plan available in your area. Any information we provide is limited to the plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options.",
+  "disclaimer_es": "Esta es una explicacion en palabras sencillas del Resumen de Beneficios de su plan. Su Evidencia de Cobertura es el documento oficial y es el que manda si hay alguna diferencia. No ofrecemos todos los planes disponibles en su area. La informacion que ofrecemos se limita a los planes que si ofrecemos en su area. Comuniquese con Medicare.gov o llame al 1-800-MEDICARE para obtener informacion sobre todas sus opciones.",
+  "member_services_phone": "1-800-555-0100",
+  "agent_phone": "",
+  "notes": "Template spec used by the tests and by docs/notebooklm-workflow.md. Every number here is invented. Copy this file, rename it to the real plan slug, and replace all of it from the carrier's Summary of Benefits before building anything a member will hear.",
+  "benefits": [
+    {
+      "name": "Monthly plan premium",
+      "member_cost": "$0",
+      "category": "money",
+      "detail": "You still pay your Medicare Part B premium",
+      "name_es": "Prima mensual del plan",
+      "detail_es": "Usted sigue pagando su prima de la Parte B de Medicare"
+    },
+    {
+      "name": "Most you would pay in a year for medical care",
+      "member_cost": "$4,500",
+      "category": "money",
+      "detail": "In-network. After that the plan pays 100% of covered medical services for the rest of the year",
+      "name_es": "Lo maximo que pagaria en un ano por atencion medica",
+      "detail_es": "Dentro de la red. Despues de eso el plan paga el 100% de los servicios medicos cubiertos por el resto del ano"
+    },
+    {
+      "name": "Primary care doctor visit",
+      "member_cost": "$0",
+      "category": "care",
+      "name_es": "Visita al medico de cabecera"
+    },
+    {
+      "name": "Specialist visit",
+      "member_cost": "$40 copay",
+      "category": "care",
+      "detail": "A referral from your primary care doctor is required",
+      "name_es": "Visita al especialista",
+      "member_cost_es": "$40 de copago",
+      "detail_es": "Se necesita un referido de su medico de cabecera"
+    },
+    {
+      "name": "Emergency room",
+      "member_cost": "$120 copay",
+      "category": "care",
+      "detail": "Waived if you are admitted to the hospital within 24 hours",
+      "name_es": "Sala de emergencia",
+      "member_cost_es": "$120 de copago",
+      "detail_es": "No se cobra si lo ingresan al hospital dentro de 24 horas"
+    },
+    {
+      "name": "Dental — cleanings, exams, and x-rays",
+      "member_cost": "$0",
+      "category": "extras",
+      "detail": "Two cleanings a year from a dentist in the plan's dental network",
+      "name_es": "Dental — limpiezas, examenes y radiografias",
+      "detail_es": "Dos limpiezas al ano con un dentista de la red dental del plan"
+    },
+    {
+      "name": "Over-the-counter card",
+      "member_cost": "$0",
+      "category": "extras",
+      "detail": "You get $75 every three months for approved items at participating stores. It does not roll over",
+      "name_es": "Tarjeta de venta libre",
+      "detail_es": "Recibe $75 cada tres meses para articulos aprobados en tiendas participantes. No se acumula"
+    },
+    {
+      "name": "Preferred generic drugs at a preferred pharmacy",
+      "member_cost": "$0",
+      "category": "drugs",
+      "detail": "For a 30-day supply of a Tier 1 drug",
+      "name_es": "Medicinas genericas preferidas en una farmacia preferida",
+      "detail_es": "Para un suministro de 30 dias de una medicina del Nivel 1"
+    },
+    {
+      "name": "You must use doctors and hospitals in the plan's network",
+      "category": "rules",
+      "detail": "Care outside the network is not covered except in an emergency",
+      "name_es": "Debe usar medicos y hospitales de la red del plan",
+      "detail_es": "La atencion fuera de la red no esta cubierta salvo en una emergencia"
+    },
+    {
+      "name": "Some services need the plan's approval before you get them",
+      "category": "rules",
+      "detail": "Your doctor asks the plan first. This is called prior authorization, and the Evidence of Coverage lists which services need it",
+      "name_es": "Algunos servicios necesitan la aprobacion del plan antes de recibirlos",
+      "detail_es": "Su medico le pide permiso al plan primero. Esto se llama autorizacion previa, y la Evidencia de Cobertura dice cuales servicios la necesitan"
+    }
+  ]
+}
