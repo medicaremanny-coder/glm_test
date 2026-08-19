@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Restart Obsidian MCP ngrok tunnel on macOS.
+# Restart Obsidian MCP ngrok tunnel on the LOCAL Mac (run ON the iMac).
+# If you're on Mac Mini, use restart-obsidian-bridge-from-mini.sh instead.
 # Domain: jockey-prevalent-recluse.ngrok-free.dev
 set -euo pipefail
 
