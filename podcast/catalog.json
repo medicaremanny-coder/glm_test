@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "h1234-001-2026",
+    "plan_id": "H1234-001",
+    "plan_year": 2026,
+    "lang": "en",
+    "status": "kit_built",
+    "spec_fingerprint": "c36190cc6eea3497",
+    "kit_path": "kits/h1234-001-2026/en"
+  },
+  {
+    "slug": "h1234-001-2026",
+    "plan_id": "H1234-001",
+    "plan_year": 2026,
+    "lang": "es",
+    "status": "kit_built",
+    "spec_fingerprint": "c36190cc6eea3497",
+    "kit_path": "kits/h1234-001-2026/es"
+  }
+]

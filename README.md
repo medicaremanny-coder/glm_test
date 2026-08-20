@@ -1,8 +1,17 @@
 # glm_test
 
-Python utilities generated and verified with the [GLM CLI](https://www.npmjs.com/package/glm-coding) — an AI code generator powered by Z.ai's GLM models.
+Working repo for MedicareManny projects, plus the Python utilities the repo
+started as.
 
-## Contents
+## Projects
+
+| Path | What it is |
+|---|---|
+| [`podcast/`](podcast/README.md) | **Plan Benefits Podcast** — turns a Summary of Benefits into a NotebookLM audio episode (EN + ES) sent to members at enrollment |
+| [`docs/lead-vigilance-runbook.md`](docs/lead-vigilance-runbook.md) | Inbound lead monitoring across Meta and TikTok, with Gmail as the signal bus |
+| [`marketing/tiktok/`](marketing/tiktok/) | TikTok content packs, compliance checklist, and the Texas licensing timing plan |
+
+## Python utilities
 
 | File | Description |
 |---|---|
@@ -10,6 +19,8 @@ Python utilities generated and verified with the [GLM CLI](https://www.npmjs.com
 | `test_url_shortener.py` | 37-test suite for `URLShortener` |
 | `calculate_sum.py` | `calculate_sum` function — typed, validated numeric list summation |
 | `test_calculate_sum.py` | Assertions + doctests for `calculate_sum` |
+
+These were generated and verified with the [GLM CLI](https://www.npmjs.com/package/glm-coding) — an AI code generator powered by Z.ai's GLM models.
 
 ---
 
