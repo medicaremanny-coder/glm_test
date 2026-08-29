@@ -25,7 +25,7 @@ Priority:
 1. Official carrier Summary of Benefits
 2. Evidence of Coverage
 3. Carrier producer portal / document
-4. CMS data
+4. Official CMS MA/PD landscape file (not a public live REST API; CY2027 due mid-to-late September)
 5. Verified provider / network sources
 
 If information cannot be verified, mark it `UNVERIFIED` or `PENDING`.

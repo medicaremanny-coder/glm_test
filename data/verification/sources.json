@@ -4,9 +4,17 @@
   "benefitYear": 2027,
   "overallStatus": "Pending CMS",
   "previewStatus": "Carrier Preview",
-  "lastReviewed": "2026-08-29",
+  "lastReviewed": "2026-08-28",
   "officialSobLinksCompleted": false,
-  "notes": "Comparison grids still use 2026 SOB carry-forward values. Do not present as verified 2027 benefits.",
+  "notes": "2026 SOB links and the CY2026 CMS landscape are historical reference only — not verified 2027 benefits.",
+  "cmsLandscape": {
+    "label": "CY2026 Landscape (202608)",
+    "page": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage",
+    "zip": "https://www.cms.gov/files/zip/cy2026-landscape-202608.zip",
+    "cmsUpdated": "2026-08-10",
+    "cy2027Public": false,
+    "cy2027Expected": "mid-to-late September 2026"
+  },
   "officialLinks": {
     "myAccess": "https://myaccess.myflfamilies.com/",
     "floridaDcfMedicaid": "https://www.myflfamilies.com/medicaid",

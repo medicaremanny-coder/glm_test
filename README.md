@@ -26,6 +26,22 @@ Draft build for 2027. Comparison grids still carry verified 2026 Summary of Bene
 
 Read `AGENTS.md` and `.cursor/rules/` before changing benefits, Home, or verification status.
 
+## CMS mapping
+
+CMS does not offer a public live landscape REST API. The working source is the official annual file:
+
+https://www.cms.gov/medicare/coverage/prescription-drug-coverage
+
+First pass against **CY2026 Landscape (202608)**:
+
+- 693 of 724 rows match CMS contract + PBP + segment + county
+- 28 Doctors/Simply IDs are not in the 2026 landscape
+- 3 Solis rows still say pending official 2027 plan ID
+
+Those matches are historical 2026 CMS reference only until the 2027 landscape is published (expected mid-to-late September 2026).
+
+See `docs/cms-mapping.md` and the **CMS Match** tab. Codex owns Home / Reference / Carrier Resources design.
+
 ## Data
 
 Structured JSON in `data/` is the long-term source of truth. The Sheet should be updated from that data, not the other way around.
