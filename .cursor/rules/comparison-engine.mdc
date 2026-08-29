@@ -5,6 +5,10 @@ alwaysApply: true
 
 # Comparison engine
 
+Cursor owns matching, schemas, and change detection. Codex owns the Compare tab agents use during calls.
+
+Do not edit Home or Compare unless explicitly assigned. Only one agent may edit the live workbook at a time.
+
 Home is navigation plus an Agent Intelligence Bar. Do not add more large Home blocks.
 
 Dedicated tabs:

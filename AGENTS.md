@@ -31,10 +31,36 @@ Priority:
 If information cannot be verified, mark it `UNVERIFIED` or `PENDING`.
 Never convert preliminary 2027 information into a verified benefit.
 
+## Ownership
+
+**Cursor is the engine room. Codex owns what agents see and use.**
+Only one agent may edit the live workbook at a time.
+
+Cursor owns:
+
+- CMS landscape imports and annual refresh scripts
+- Contract / PBP / segment / county matching
+- Data schemas, CSV/JSON files, and validation
+- Automated tests and GitHub Actions
+- Detecting benefit changes and discrepancies
+
+Codex owns the live agent tool:
+
+- Home and Compare redesign
+- Google Sheets formatting and usability
+- Dropdown controls, navigation, and spacing
+- Carrier headers, colors, and hyperlinks
+- Source verification and saved-state readback
+
+Cursor stays out of **Home, Compare, Reference, and Carrier Resources** unless explicitly assigned one of those areas.
+
+Obsidian, Notion, Calendar, Gmail, and Granola stay unchanged under this split.
+
 ## Live workbook
 
 Google Sheet: [MedicareManny 2027 Florida Plan Comparison Engine](https://docs.google.com/spreadsheets/d/1WCuS2bKtIyEyJjGNTv2cLBieKpYYmzxWa3qBLY4_EfY/edit)
 
+The sheet is Codex’s interface. This repository is Cursor’s source of truth.
 Home stays compact: navigation, verification status, and current alerts.
 Detailed material belongs in dedicated tabs.
 

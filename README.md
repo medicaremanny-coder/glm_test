@@ -47,7 +47,7 @@ python3 -m unittest tests.test_cms_match -v
 bash scripts/refresh_cms_landscape.sh 2026 202608
 ```
 
-See `docs/cms-mapping.md` and the **CMS Match** tab. Codex owns Home / Reference / Carrier Resources design.
+See `docs/cms-mapping.md`. Cursor owns CMS matching and validation. Codex owns Home, Compare, Reference, and Carrier Resources. Only one agent edits the live workbook at a time.
 
 ## Data
 
