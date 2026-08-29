@@ -1,0 +1,22 @@
+{
+  "workbookId": "1WCuS2bKtIyEyJjGNTv2cLBieKpYYmzxWa3qBLY4_EfY",
+  "workbookTitle": "MedicareManny 2027 Florida Plan Comparison Engine",
+  "benefitYear": 2027,
+  "overallStatus": "Pending CMS",
+  "previewStatus": "Carrier Preview",
+  "lastReviewed": "2026-08-29",
+  "officialSobLinksCompleted": false,
+  "notes": "Comparison grids still use 2026 SOB carry-forward values. Do not present as verified 2027 benefits.",
+  "officialLinks": {
+    "myAccess": "https://myaccess.myflfamilies.com/",
+    "floridaDcfMedicaid": "https://www.myflfamilies.com/medicaid",
+    "ahcaMedicaidEligibility": "https://ahca.myflorida.com/medicaid/medicaid-policy-quality-and-operations/medicaid-policy-and-quality/medicaid-policy/program-policy/eligibility-for-medicaid-services.html",
+    "ssaExtraHelpApply": "https://www.ssa.gov/extrahelp",
+    "ssaExtraHelpInfo": "https://www.ssa.gov/medicare/part-d-extra-help",
+    "medicareExtraHelp": "https://www.medicare.gov/basics/costs/help/drug-costs",
+    "medicareSavingsPrograms": "https://www.medicare.gov/medicare-savings-programs",
+    "medicareGetStarted": "https://www.medicare.gov/basics/get-started-with-medicare",
+    "medicarePlanFinder": "https://www.medicare.gov/plan-compare/",
+    "floridaShine": "https://www.floridashine.org/"
+  }
+}

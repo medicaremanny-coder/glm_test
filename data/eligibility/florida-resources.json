@@ -1,0 +1,43 @@
+{
+  "purpose": "Official eligibility resources for Florida Medicare agents. Not a determination tool.",
+  "lastReviewed": "2026-08-29",
+  "resources": [
+    {
+      "id": "myaccess",
+      "name": "Florida MyACCESS",
+      "use": "Member-controlled Florida Medicaid application, renewal, and case status",
+      "url": "https://myaccess.myflfamilies.com/",
+      "phone": "850-300-4323"
+    },
+    {
+      "id": "dcf-medicaid",
+      "name": "Florida DCF Medicaid",
+      "use": "Official explanation of who determines Medicaid and Medicare Buy-In / MSP",
+      "url": "https://www.myflfamilies.com/medicaid"
+    },
+    {
+      "id": "ssa-extra-help",
+      "name": "SSA Extra Help (LIS)",
+      "use": "Apply for Extra Help with Medicare drug costs",
+      "url": "https://www.ssa.gov/extrahelp"
+    },
+    {
+      "id": "medicare-msp",
+      "name": "Medicare Savings Programs",
+      "use": "Official QMB, SLMB, QI, and QDWI descriptions. Do not hard-code income limits here.",
+      "url": "https://www.medicare.gov/medicare-savings-programs"
+    },
+    {
+      "id": "shine",
+      "name": "Florida SHINE",
+      "use": "Free State Health Insurance Assistance Program counseling",
+      "url": "https://www.floridashine.org/",
+      "phone": "1-800-963-5337"
+    }
+  ],
+  "marx": {
+    "status": "Authorized plan and CMS users only",
+    "commercialPurchase": false,
+    "agentGuidance": "Independent agents verify eligibility in carrier portals and send members to MyACCESS / SSA. Do not present MARx as a subscription this agency can buy."
+  }
+}

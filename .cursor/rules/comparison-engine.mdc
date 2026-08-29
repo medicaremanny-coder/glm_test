@@ -1,0 +1,19 @@
+---
+description: Comparison engine product rules and workbook tab responsibilities
+alwaysApply: true
+---
+
+# Comparison engine
+
+Home is navigation plus an Agent Intelligence Bar. Do not add more large Home blocks.
+
+Dedicated tabs:
+
+- Eligibility Center — official Florida Medicaid/MyACCESS, Extra Help, Medicare eligibility
+- Call Checklist — ZIP, doctors, hospitals, medications, pharmacy, Medicaid/LIS, priorities
+- What Changed 2027 — side-by-side 2026→2027 changes, pending until official SOB
+- Update Log — dated corrections, new SOB links, discrepancy queue
+
+Never declare a “best plan.” Surface options for agent review.
+Keep commissionability, AOR, certification, and Focus Plan notes off client-facing views.
+Every enrollment reminder must say: verify current SOB, provider directory, and formulary.

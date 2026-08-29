@@ -1,0 +1,24 @@
+{
+  "doNotEnter": ["SSN", "Medicare Beneficiary Identifier", "full date of birth", "bank account"],
+  "fields": [
+    "callDate",
+    "agentName",
+    "clientFirstName",
+    "zip",
+    "county",
+    "doctorsOrGroups",
+    "hospitals",
+    "medications",
+    "pharmacy",
+    "medicaidLevel",
+    "lisExtraHelp",
+    "benefitPriorities",
+    "scenario",
+    "notes"
+  ],
+  "complianceBeforeEnrollment": [
+    "Current Summary of Benefits",
+    "Provider directory",
+    "Formulary and pharmacy directory"
+  ]
+}

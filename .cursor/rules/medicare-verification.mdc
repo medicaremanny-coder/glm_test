@@ -1,0 +1,14 @@
+---
+description: Verification, sources, and overwrite rules for 2027 Medicare data
+alwaysApply: true
+---
+
+# Medicare verification
+
+- Official Summary of Benefits is authoritative for member-facing benefits.
+- Do not infer missing benefits from similar plans, prior years, or marketing decks.
+- Record source URL or document name and the verification date on every change.
+- Status values: `Official SOB` | `Carrier Preview` | `Pending CMS` | `UNVERIFIED`.
+- Do not silently overwrite a discrepancy. Log it in `data/verification/` and the Update Log tab.
+- A 2026 SOB link is not a 2027 verification.
+- MARx is not a commercial subscription. Mention it only as authorized plan/CMS users only.
