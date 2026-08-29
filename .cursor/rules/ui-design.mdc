@@ -1,0 +1,18 @@
+---
+description: Spreadsheet and future web UI design principles
+alwaysApply: true
+---
+
+# UI design
+
+- Compact dashboard. South Florida first. Agent-friendly on iPad.
+- Comparison stays above the fold on Compare tabs.
+- Verification status must stay visible.
+- Home: navigation, alerts, verification. No dense resource lists as the first screen.
+- Intelligence Bar is one compact row group — not another set of large cards.
+- Prefer professional color, clear hierarchy, and large enough tap targets.
+- Codex owns the live agent tool: Home, Compare, Reference, Carrier Resources, formatting, dropdowns, navigation, carrier headers, colors, and hyperlinks.
+- Cursor stays out of Home, Compare, Reference, and Carrier Resources unless explicitly assigned one of those areas.
+- Only one agent may edit the live workbook at a time. If Codex is working in the sheet, Cursor does not write to it.
+- Do not restyle Codex-owned sheets. Backend work stays in `data/`, `scripts/`, `tests/`, and docs.
+- Excel export must keep text labels even if logos or images are used.

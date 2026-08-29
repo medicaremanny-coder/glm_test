@@ -1,0 +1,15 @@
+---
+description: Medicare plan data fields, county rules, and what may be stored
+alwaysApply: true
+---
+
+# Medicare data
+
+- Primary counties: Miami-Dade, Broward, Palm Beach.
+- Secondary: Orange, Osceola, Seminole, Polk, Hillsborough, Pasco, Pinellas.
+- Never treat plans from different counties as interchangeable.
+- Required identifiers: benefit year, target plan year, county, county FIPS, carrier, plan name, contract_id, pbp_id, segment_id, verification_class, source dataset/version, last verified date.
+- Keep `historical_2026`, `preliminary_2027`, and `verified_2027` visibly separate. Never promote a 2026 landscape match to verified 2027.
+- Do not invent 2027 benefits. Carry-forward 2026 values must stay labeled as draft / pending CMS.
+- Do not store SSN, Medicare Beneficiary Identifier, full DOB, bank data, or other sensitive member identifiers.
+- Structured data lives under `data/`. The Google Sheet is a generated interface.

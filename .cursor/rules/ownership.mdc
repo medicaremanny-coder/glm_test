@@ -1,0 +1,30 @@
+---
+description: Cursor vs Codex ownership — engine room vs live agent tool
+alwaysApply: true
+---
+
+# Ownership
+
+Cursor is the engine room. Codex owns what agents see and use.
+
+## Cursor
+
+- CMS landscape imports and annual refresh scripts
+- Contract / PBP / segment / county matching
+- Data schemas, CSV/JSON, and validation
+- Automated tests and GitHub Actions
+- Benefit-change and discrepancy detection
+
+## Codex
+
+- Home and Compare redesign
+- Google Sheets formatting and usability
+- Dropdowns, navigation, and spacing
+- Carrier headers, colors, and hyperlinks
+- Source verification and saved-state readback
+
+## Hard stops
+
+- Do not edit Home, Compare, Reference, or Carrier Resources unless the user explicitly assigns that tab.
+- Only one agent may edit the live workbook at a time.
+- Do not change Obsidian, Notion, Calendar, Gmail, or Granola as part of this split.

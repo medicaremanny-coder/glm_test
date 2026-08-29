@@ -1,0 +1,29 @@
+{
+  "required_fields": [
+    "county",
+    "county_fips",
+    "plan_number",
+    "contract_id",
+    "pbp_id",
+    "segment_id",
+    "benefit_year",
+    "target_plan_year",
+    "verification_class",
+    "match_status",
+    "source_dataset",
+    "source_version",
+    "source_url",
+    "source_updated",
+    "mapped_on"
+  ],
+  "verification_classes": [
+    "historical_2026",
+    "unmatched_historical",
+    "preliminary_2027",
+    "verified_2027"
+  ],
+  "notes": [
+    "contract_pbp is a derived join key only. Production code should use contract_id, pbp_id, and segment_id.",
+    "verified_2027 must not be assigned until the official CY2027 landscape is imported and an SOB is attached."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "date": "2026-08-29",
+      "author": "Cursor",
+      "tab": "Home",
+      "plan": "",
+      "changeType": "interface",
+      "summary": "Added compact Agent Intelligence Bar, workspace links, and agent-only compliance footer. Left Codex Home cards in place.",
+      "source": "Product direction from Manny Leon",
+      "status": "Verified interface change"
+    },
+    {
+      "date": "2026-08-29",
+      "author": "Cursor",
+      "tab": "Eligibility Center / Call Checklist / What Changed 2027 / Update Log",
+      "plan": "",
+      "changeType": "new-tabs",
+      "summary": "Created dedicated tabs so Home stays spacious.",
+      "source": "Official MyACCESS, SSA Extra Help, Medicare.gov, Florida SHINE URLs",
+      "status": "Verified interface change"
+    },
+    {
+      "date": "2026-08-29",
+      "author": "Build",
+      "tab": "Workbook",
+      "plan": "All loaded plans",
+      "changeType": "verification",
+      "summary": "2027 benefits remain Carrier Preview / Pending CMS. Comparison values are 2026 SOB carry-forward until official 2027 SOB links replace them.",
+      "source": "Current workbook SOB URLs still point to 2026 PDFs",
+      "status": "Pending CMS"
+    }
+  ]
+}

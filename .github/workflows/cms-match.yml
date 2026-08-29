@@ -1,0 +1,22 @@
+name: CMS match checks
+
+on:
+  push:
+    paths:
+      - "scripts/map_cms_landscape.py"
+      - "data/cms/**"
+      - "data/plans/**"
+      - "tests/**"
+      - ".github/workflows/cms-match.yml"
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run CMS match unit tests
+        run: python3 -m unittest tests.test_cms_match -v

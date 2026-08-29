@@ -1,165 +1,60 @@
-# glm_test
+# MedicareManny 2027 Comparison Engine
 
-Python utilities generated and verified with the [GLM CLI](https://www.npmjs.com/package/glm-coding) — an AI code generator powered by Z.ai's GLM models.
+South Florida Medicare plan intelligence for working agents.
 
-## Contents
+This repository is the permanent project home. The live Google Sheet is the current agent interface.
 
-| File | Description |
-|---|---|
-| `url_shortener.py` | `URLShortener` class — hash-based URL shortener with collision handling |
-| `test_url_shortener.py` | 37-test suite for `URLShortener` |
-| `calculate_sum.py` | `calculate_sum` function — typed, validated numeric list summation |
-| `test_calculate_sum.py` | Assertions + doctests for `calculate_sum` |
+**Workbook:** [MedicareManny 2027 Florida Plan Comparison Engine](https://docs.google.com/spreadsheets/d/1WCuS2bKtIyEyJjGNTv2cLBieKpYYmzxWa3qBLY4_EfY/edit)
 
----
+## Status
 
-## URLShortener
+Draft build for 2027. Comparison grids still carry verified 2026 Summary of Benefits values until official 2027 documents replace them. Do not present draft 2027 figures as final.
 
-A pure-Python, in-memory URL shortener. Uses SHA-256 hashing to generate short codes with automatic collision resolution and optional file-based persistence.
+## Agent interface
 
-### Requirements
+| Tab | Purpose |
+| --- | --- |
+| Home | Navigation, Agent Intelligence Bar, alerts |
+| Compare | County + plan-type comparison |
+| Call Checklist | Client-call intake without storing SSN/MBI |
+| Eligibility Center | MyACCESS, Extra Help, Medicare eligibility |
+| What Changed 2027 | 2026→2027 change detector (pending official SOB) |
+| Update Log | Dated corrections, SOB links, discrepancy queue |
+| County grids / Plan Database / Hospitals / Carrier Resources | Existing comparison and reference |
 
-- Python 3.8+
-- No third-party dependencies (stdlib only: `hashlib`, `base64`, `pathlib`, `logging`)
+## Rules
 
-### Quick start
+Read `AGENTS.md` and `.cursor/rules/` before changing benefits, Home, or verification status.
 
-```python
-from url_shortener import URLShortener
+## CMS mapping
 
-shortener = URLShortener()                          # default code_length=6
-code = shortener.shorten_url('https://example.com/very/long/path')
-print(code)                                         # e.g. "aB3xYz"
+CMS does not offer a public live landscape REST API. The working source is the official annual file:
 
-original = shortener.expand_url(code)
-print(original)                                     # 'https://example.com/very/long/path'
-```
+https://www.cms.gov/medicare/coverage/prescription-drug-coverage
 
-### Constructor
+First pass against **CY2026 Landscape (202608)**:
 
-```python
-URLShortener(code_length: int = 6)
-```
+- 693 of 724 rows match CMS contract + PBP + segment + county
+- 28 Doctors/Simply IDs are not in the 2026 landscape
+- 3 Solis rows still say pending official 2027 plan ID
 
-| Parameter | Type | Default | Description |
-|---|---|---|---|
-| `code_length` | `int` | `6` | Length of generated codes. Must be between **4** and **12** inclusive. |
+Those matches are historical 2026 CMS reference only until the 2027 landscape is published (expected mid-to-late September 2026).
 
-Raises `TypeError` if `code_length` is not an integer, `ValueError` if out of range.
-
-### Methods
-
-#### `shorten_url(url: str) -> str`
-
-Shortens a URL and returns its short code. Calling with the same URL twice always returns the same code.
-
-```python
-code = shortener.shorten_url('https://github.com/user/repo')
-```
-
-- Accepts `http://` and `https://` URLs only.
-- Raises `TypeError` for non-string input, `ValueError` for empty/whitespace or invalid protocol.
-
-#### `expand_url(code: str) -> Optional[str]`
-
-Returns the original URL for a given code, or `None` if the code is unknown.
-
-```python
-url = shortener.expand_url('aB3xYz')   # returns URL or None
-```
-
-#### `get_stats() -> Dict[str, int]`
-
-Returns a snapshot of current state.
-
-```python
-stats = shortener.get_stats()
-# {'total_urls': 3, 'total_codes': 3, 'code_length': 6}
-```
-
-#### `clear() -> None`
-
-Removes all stored URL/code mappings.
-
-```python
-shortener.clear()
-```
-
-#### `save_to_file(file_path: str) -> None`
-
-Persists all mappings to a CSV-style text file (`code,url` per line).
-
-```python
-shortener.save_to_file('/tmp/urls.txt')
-```
-
-Raises `FileNotFoundError` if the parent directory does not exist, `IOError` on write failure.
-
-#### `load_from_file(file_path: str) -> None`
-
-Loads mappings from a file previously written by `save_to_file`. Merges into existing state.
-
-```python
-shortener.load_from_file('/tmp/urls.txt')
-```
-
-Raises `FileNotFoundError` if the file does not exist, `ValueError` on invalid format.
-
-### Collision handling
-
-When two different URLs hash to the same base code, `_resolve_collision` appends a zero-padded counter suffix (e.g. `aB3x01`, `aB3x02`, …) until a unique code is found. Up to 999 attempts are made before a `RuntimeError` is raised.
-
-### Limitations
-
-- **Not thread-safe.** Use an external lock (e.g. `threading.Lock`) for concurrent access.
-- **In-memory only** unless `save_to_file` / `load_from_file` are used.
-- Codes are not guaranteed to be stable across Python versions (SHA-256 output is stable, but this is worth noting for long-term persistence).
-
-### Running the demo
+The production CSV now splits `contract_id`, `pbp_id`, `segment_id`, `county_fips`, `benefit_year`, and source-version fields. `contract_pbp` is a derived join key only.
 
 ```bash
-python3 url_shortener.py
+python3 -m unittest tests.test_cms_match -v
+bash scripts/refresh_cms_landscape.sh 2026 202608
 ```
+
+See `docs/cms-mapping.md`. Cursor owns CMS matching and validation. Codex owns Home, Compare, Reference, and Carrier Resources. Only one agent edits the live workbook at a time.
+
+## Data
+
+Structured JSON in `data/` is the long-term source of truth. The Sheet should be updated from that data, not the other way around.
 
 ---
 
-## calculate_sum
+## Legacy glm_test utilities
 
-A typed utility function that sums a list of integers or floats with full input validation.
-
-```python
-from calculate_sum import calculate_sum
-
-calculate_sum([1, 2, 3, 4, 5])   # 15
-calculate_sum([1.5, 2.5, 3.0])   # 7.0
-calculate_sum([])                 # 0
-```
-
-Raises `TypeError` for non-list input or non-numeric elements, `ValueError` for `None`.
-
----
-
-## Running the tests
-
-No test framework installation required — uses the stdlib `unittest` module.
-
-```bash
-# URLShortener tests (37 tests)
-python3 -m unittest test_url_shortener -v
-
-# calculate_sum tests + doctests
-python3 test_calculate_sum.py
-```
-
----
-
-## How the code was generated
-
-All source files were generated using the [GLM CLI](https://www.npmjs.com/package/glm-coding):
-
-```bash
-glm -q "create a URL shortener class in Python with collision handling" -l python
-glm -q "create a python function that takes a list of numbers and returns the sum" -l python
-```
-
-The test suites were written by hand to verify correctness of the generated code before committing.
+This GitHub repository originally held small Python utilities (`url_shortener.py`, `calculate_sum.py`). Those files remain for history. New MedicareManny work should not depend on them.

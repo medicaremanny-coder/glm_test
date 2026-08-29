@@ -1,0 +1,5082 @@
+{
+  "extracted_on": "2026-08-28",
+  "range": "Plan Database!A3:E",
+  "values": [
+    [
+      "County",
+      "Plan Type",
+      "Carrier",
+      "Plan Name",
+      "Plan Number"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-305"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-279"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum     Giveback (HMO)",
+      "H1019-136"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 013 FL (HMO)",
+      "H1290-013"
+    ],
+    [
+      "Miami-Dade",
+      "Terminated 1/1/2027",
+      "Doctors HealthCare",
+      "Doctors DrElite-SFL (HMO)",
+      "H4140-019"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "HealthSun",
+      "Healthsun HealthAdvantage Plus (HMO)",
+      "H5431-017"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-113"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Giveback (HMO)",
+      "H1032-195"
+    ],
+    [
+      "Miami-Dade",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Preferred Care Network",
+      "UHC MedicareMax Medicare Advantage FL-0028 (HMO)",
+      "H5420-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Preferred Care Partners",
+      "UHC Preferred Medicare Advantage FL-0001 (HMO)",
+      "H1045-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus C (HMO)",
+      "H1036-054"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-093"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "CarePlus",
+      "CareAccess (HMO)",
+      "H1019-148"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "CarePlus",
+      "CareOne Plus (HMO)",
+      "H1019-006"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Cigna / HealthSpring",
+      "HealthSpring Preferred (HMO)",
+      "H5410-060"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 001 FL (HMO)",
+      "H1290-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 062 FL (HMO)",
+      "H1290-062"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-SFL (HMO)",
+      "H4140-023"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrMax-Dade (HMO)",
+      "H4140-022"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "HealthSun",
+      "HealthSun HealthAdvantage Plan (HMO)",
+      "H5431-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "HealthSun",
+      "HealthSun MediMax (HMO)",
+      "H5431-006"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-065"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Simply",
+      "Simply More Platinum (HMO)",
+      "H5471-114"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Wellcare",
+      "Wellcare Simple (HMO)",
+      "H1032-237"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-022"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Preferred Care Network",
+      "UHC MedicareMax Complete Care FL-30 (HMO C-SNP)",
+      "H5420-014"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Complete Care FL-0003 (HMO C-SNP)",
+      "H1045-018"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-121"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-297"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-094"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum       (HMO C-SNP)",
+      "H1019-123"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-121"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 085 FL (HMO C-SNP)",
+      "H1290-085"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 067 Fl (HMO C-SNP)",
+      "H1290-067"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-SFL (HMO C-SNP)",
+      "H4140-024"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "HealthSun",
+      "HealthSun VitalCare      (HMO-C-SNP)",
+      "H5431-021"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO-C-SNP)",
+      "H5471-069"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum   (HMO-C-SNP)",
+      "H5471-116"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney            (HMO-POS C-SNP)",
+      "H1526-009"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Health Plan                  (HMO-POS C-SNP)",
+      "H1526-008"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-028"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-016"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-Y6 (HMO-POS D-SNP)",
+      "H1045-063"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-YL (HMO-POS D-SNP)",
+      "H2509-001"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Q3 (Regional PPO D-SNP)",
+      "R0759-003"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Q1 (PPO D-SNP)",
+      "H1889-002-002"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Y7 (PPO D-SNP)",
+      "H1889-026"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-QV4 (HMO D-SNP)",
+      "H1045-012"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-QV5 (HMO D-SNP)",
+      "H1045-061"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-339"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-304"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE A (HMO D-SNP)",
+      "H1036-077"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-043"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-073"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-152"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-023"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Cigna / HealthSpring",
+      "HealthSpring TotalCare (HMO-D-SNP)",
+      "H5410-056"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 019 FL    (HMO-D-SNP)",
+      "H1290-019"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 078 FL (HMO D-SNP)",
+      "H1290-078"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 053 FL (HMO D-SNP)",
+      "H1290-053"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-SFL (HMO D-SNP)",
+      "H4140-013"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-SFL (HMO D-SNP)",
+      "H4140-020"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Extra (HMO-D-SNP)",
+      "H5431-019"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Full Dual Extra (HMO-D-SNP)",
+      "H5431-026"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Simply",
+      "Simply Complete              (HMO D-SNP)",
+      "H5471-064"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO-D-SNP)",
+      "H5471-115"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated            (HMO D-SNP)",
+      "H5471-127"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO-D-SNP)",
+      "H5471-134"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Miami-Dade",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-002"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-305"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-279"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "CarePlus",
+      "CareFree Giveback (HMO)",
+      "H1019-065"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum Giveback (HMO-POS)",
+      "H1019-135"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 014 FL (HMO)",
+      "H1290-014"
+    ],
+    [
+      "Broward",
+      "Terminated 1/1/2027",
+      "Doctors HealthCare",
+      "Doctors DrElite-SFL (HMO)",
+      "H4140-019"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "HealthSun",
+      "Healthsun HealthAdvantage Plus (HMO)",
+      "H5431-018"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-001"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-123"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Giveback (HMO)",
+      "H1032-195"
+    ],
+    [
+      "Broward",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Preferred Care Network",
+      "UHC MedicareMax Medicare Advantage FL-0029 (HMO)",
+      "H5420-003"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Preferred Care Partners",
+      "UHC Preferred Medicare Advantage FL-0002 (HMO)",
+      "H1045-005"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus C (HMO)",
+      "H1036-065"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-018"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "CarePlus",
+      "CareAccess (HMO)",
+      "H1019-148"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "CarePlus",
+      "CareOne Plus (HMO-POS)",
+      "H1019-001"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Cigna / HealthSpring",
+      "HealthSpring Preferred (HMO)",
+      "H5410-060"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 002 FL (HMO)",
+      "H1290-002"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 056 FL (HMO)",
+      "H1290-056"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-002"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-SFL (HMO)",
+      "H4140-023"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "HealthSun",
+      "HealthSun HealthAdvantage Plan (HMO)",
+      "H5431-012"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "HealthSun",
+      "HealthSun MediMax (HMO)",
+      "H5431-006"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Optimum",
+      "Optimum Platinum Plan (HMO)",
+      "H5594-002"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-077"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Simply",
+      "Simply More Platinum (HMO)",
+      "H5471-124"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Wellcare",
+      "Wellcare Simple (HMO)",
+      "H1032-196"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-007"
+    ],
+    [],
+    [
+      "Broward",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-121"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-297"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-080"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum      (HMO-POS C-SNP)",
+      "H1019-124"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO-POS C-SNP)",
+      "H1019-130"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 084 FL (HMO C-SNP)",
+      "H1290-084"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 073 Fl (HMO C-SNP)",
+      "H1290-073"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Freedom",
+      "Freedom VIP Savinga COPD (HMO C-SNP)",
+      "H5427-083"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Freedom",
+      "Freedom VIP Savings     (HMO C-SNP)",
+      "H5427-082"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "HealthSun",
+      "HealthSun VitalCare      (HMO-C-SNP)",
+      "H5431-021"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO-C-SNP)",
+      "H5471-080"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum   (HMO-C-SNP)",
+      "H5471-126"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-030"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-017"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-Y6 (HMO-POS D-SNP)",
+      "H1045-063"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Q3 (Regional PPO D-SNP)",
+      "R0759-003"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Q1 (PPO D-SNP)",
+      "H1889-002-002"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "UnitedHealthcare (Closed 1/1/2027; Noncommissionable)",
+      "UHC Dual Complete FL-Y7 (PPO D-SNP)",
+      "H1889-026"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-QV4 (HMO D-SNP)",
+      "H1045-012"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Preferred Care Partners",
+      "UHC Preferred Dual Complete FL-QV5 (HMO D-SNP)",
+      "H1045-061"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-339"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-304"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE A (HMO D-SNP)",
+      "H1036-077"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-043"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-073"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-152"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-023"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Cigna / HealthSpring",
+      "HealthSpring TotalCare (HMO-D-SNP)",
+      "H5410-056"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 020 FL    (HMO-D-SNP)",
+      "H1290-020"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 077 FL (HMO D-SNP)",
+      "H1290-077"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 054 FL (HMO D-SNP)",
+      "H1290-054"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-SFL (HMO D-SNP)",
+      "H4140-013"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Extra (HMO-D-SNP)",
+      "H5431-019"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Full Dual Extra (HMO-D-SNP)",
+      "H5431-026"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Simply",
+      "Simply Complete               (HMO-D-SNP)",
+      "H5471-076"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO-D-SNP)",
+      "H5471-125"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated               (HMO-D-SNP)",
+      "H5471-130"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-137"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-012"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-305"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-279"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "CarePlus",
+      "CareFree Giveback (HMO)",
+      "H1019-065"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum Giveback (HMO-POS)",
+      "H1019-135"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 015 FL (HMO)",
+      "H1290-015"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Freedom",
+      "Freedom Savings (HMO)",
+      "H5427-052"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "HealthSun",
+      "Healthsun HealthAdvantage Plus (HMO)",
+      "H5431-020"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Prominence",
+      "Prominence Giveback (HMO)",
+      "H7239-004"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-123"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Giveback (HMO)",
+      "H1032-195"
+    ],
+    [
+      "Palm Beach",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "UnitedHealthcare",
+      "UHC Preferred Medicare Advantage FL-002P (HMO)",
+      "H1045-037"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus C (HMO)",
+      "H1036-062"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-020"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "CarePlus",
+      "CareAccess (HMO)",
+      "H1019-148"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "CarePlus",
+      "CareOne Plus (HMO-POS)",
+      "H1019-001"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Cigna / HealthSpring",
+      "HealthSpring Preferred (HMO)",
+      "H5410-060"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 003 FL (HMO)",
+      "H1290-003"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 064 FL (HMO)",
+      "H1290-064"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-003"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Freedom",
+      "Freedom Medicare Plan Rx (HMO)",
+      "H5427-060"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "HealthSun",
+      "HealthSun HealthAdvantage Plan (HMO)",
+      "H5431-013"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Prominence",
+      "Prominence Extra Help (HMO)",
+      "H7239-003"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Prominence",
+      "Prominence Plus (HMO)",
+      "H7239-001"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Simply",
+      "Simply More Platinum (HMO)",
+      "H5471-124"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Wellcare",
+      "Wellcare Simple (HMO)",
+      "H1032-196"
+    ],
+    [
+      "Palm Beach",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-008"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-121"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-297"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-081"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum      (HMO-POS C-SNP)",
+      "H1019-124"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO-POS C-SNP)",
+      "H1019-130"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 086 FL (HMO C-SNP)",
+      "H1290-086"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 068 Fl (HMO C-SNP)",
+      "H1290-068"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Freedom",
+      "Freedom VIP Care           (HMO C-SNP)",
+      "H5427-070"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Freedom",
+      "Freedom VIP Savinga COPD (HMO C-SNP)",
+      "H5427-077"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Freedom",
+      "Freedom VIP Savings     (HMO C-SNP)",
+      "H5427-072"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "HealthSun",
+      "HealthSun VitalCare       (HMO-C-SNP)",
+      "H5431-022"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Prominence",
+      "Prominence Diabetes and Heart Giveback (HMO C-SNP)",
+      "H7239-005"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum   (HMO-C-SNP)",
+      "H5471-126"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-030"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-018"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "UnitedHealthcare",
+      "PCP Preferred Dual Complete FL-V2 (HMO D-SNP)",
+      "H1045-064"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "UnitedHealthcare",
+      "PCP Preferred Dual Complete FL-Y3 (HMO-POS D-SNP)",
+      "H1045-065"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Preferred Dual Complete FL-D01P (HMO D-SNP)",
+      "H1045-038"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-339"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-304"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE A (HMO D-SNP)",
+      "H1036-077"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-019"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-048"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-090"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-152"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "CarePlus",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-023"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Cigna / HealthSpring",
+      "HealthSpring TotalCare (HMO-D-SNP)",
+      "H5410-056"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 021 FL    (HMO-D-SNP)",
+      "H1290-021"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 079 FL (HMO D-SNP)",
+      "H1290-079"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 055 FL (HMO D-SNP)",
+      "H1290-055"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Full Dual Plus (HMO-D-SNP)",
+      "H5431-025"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "HealthSun",
+      "HealthSun MediSun Plus (HMO-D-SNP)",
+      "H5431-016"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Prominence",
+      "Prominence Dual (HMO-DSNP)",
+      "H7239-002"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Simply",
+      "Simply Complete                 (HMO-D-SNP)",
+      "H5471-084"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO-D-SNP)",
+      "H5471-125"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated                 (HMO-D-SNP)",
+      "H5471-132"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-137"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Palm Beach",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-013"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-269"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-290"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum     Giveback (HMO)",
+      "H1019-138"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 018 FL (HMO)",
+      "H1290-018"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-120"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Orange",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-046"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-146"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-086"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 005 FL (HMO)",
+      "H1290-005"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 063 FL (HMO)",
+      "H1290-063"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-004"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-022"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-074"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-024"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Orange",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO-POS)",
+      "H1019-057"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-001"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-300"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-313"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-085"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-001"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-001"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 087 FL (HMO C-SNP)",
+      "H1290-087"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 074 FL (HMO C-SNP)",
+      "H1290-074"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H5471-073"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-122"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-033"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-026"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-023"
+    ],
+    [
+      "Orange",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-050"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-213"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-046"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-089"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 022 FL    (HMO-D-SNP)",
+      "H1290-022"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 080 FL (HMO D-SNP)",
+      "H1290-080"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-072"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-121"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-129"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-136"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-025"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-269"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-290"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum     Giveback (HMO)",
+      "H1019-138"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 018 FL (HMO)",
+      "H1290-018"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-120"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Osceola",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-046"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-146"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-086"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 005 FL (HMO)",
+      "H1290-005"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 063 FL (HMO)",
+      "H1290-063"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-004"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-022"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-074"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-024"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Osceola",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO-POS)",
+      "H1019-057"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-001"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-300"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-313"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-085"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-001"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-001"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 087 FL (HMO C-SNP)",
+      "H1290-087"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 074 FL (HMO C-SNP)",
+      "H1290-074"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H5471-073"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-122"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-033"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-026"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-023"
+    ],
+    [
+      "Osceola",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-050"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-213"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-046"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-089"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 022 FL    (HMO-D-SNP)",
+      "H1290-022"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 080 FL (HMO D-SNP)",
+      "H1290-080"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-072"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-121"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-129"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-136"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-025"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-269"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Humana",
+      "Humana USAA Honor Giveback (HMO)",
+      "H1036-290"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum     Giveback (HMO)",
+      "H1019-138"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 018 FL (HMO)",
+      "H1290-018"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-120"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Seminole",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-046"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-146"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-086"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 005 FL (HMO)",
+      "H1290-005"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 063 FL (HMO)",
+      "H1290-063"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-004"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-022"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-074"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-024"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Seminole",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO-POS)",
+      "H1019-057"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-001"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-300"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-313"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-085"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-001"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-001"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 087 FL (HMO C-SNP)",
+      "H1290-087"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 074 FL (HMO C-SNP)",
+      "H1290-074"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H5471-073"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-122"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-033"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-026"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-023"
+    ],
+    [
+      "Seminole",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-050"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-213"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-046"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-089"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 022 FL    (HMO-D-SNP)",
+      "H1290-022"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 080 FL (HMO D-SNP)",
+      "H1290-080"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-072"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-121"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-129"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-136"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-025"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Polk",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Polk",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 051 FL (HMO)",
+      "H1290-051-002"
+    ],
+    [
+      "Polk",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-117"
+    ],
+    [
+      "Polk",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Polk",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-045"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 036 FL (HMO)",
+      "H1290-036-002"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 065 FL (HMO)",
+      "H1290-065"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-005"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Optimum",
+      "Optimum Gold Plan (HMO)",
+      "H5594-019"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-071"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-020"
+    ],
+    [
+      "Polk",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-003"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-299"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-312"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-002"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-002"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 088 FL (HMO C-SNP)",
+      "H1290-088"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 072 FL (HMO C-SNP)",
+      "H1290-072"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H5471-070"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-119"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-032"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-021"
+    ],
+    [
+      "Polk",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-051"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y001 (HMO-POS D-SNP)",
+      "H2509-001"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-102"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-019"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 024 FL    (HMO-D-SNP)",
+      "H1290-024"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 081 FL (HMO D-SNP)",
+      "H1290-081"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-066"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-118"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-128"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-135"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-023"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-265-001"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum Giveback (HMO)",
+      "H1019-104-002"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 051 FL (HMO)",
+      "H1290-051-001"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-001"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-117"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Hillsborough",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-045"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-025"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-087"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 036 FL (HMO)",
+      "H1290-036-001"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 058 FL (HMO)",
+      "H1290-058"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-005"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Optimum",
+      "Optimum Platinum Plan (HMO)",
+      "H5594-002"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-078"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-009"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Hillsborough",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO)",
+      "H1019-103-002"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-003"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-299"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-312"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-082"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-002"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-002"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 089 FL (HMO C-SNP)",
+      "H1290-089"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 069 FL (HMO C-SNP)",
+      "H1290-069"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H4571-075"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-119"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-031"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-019"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-025"
+    ],
+    [
+      "Hillsborough",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-026"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y001 (HMO-POS D-SNP)",
+      "H2509-001"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-102"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-019"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-044"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-088"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 024 FL    (HMO-D-SNP)",
+      "H1290-024"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 082 FL (HMO D-SNP)",
+      "H1290-082"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-082"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-118"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-131"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-135"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-010"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-265-001"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum Giveback (HMO)",
+      "H1019-104-002"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 051 FL (HMO)",
+      "H1290-051-001"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-001"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-117"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Pasco",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-001"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-025"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-087"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 036 FL (HMO)",
+      "H1290-036-001"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 058 FL (HMO)",
+      "H1290-058"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-005"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Doctors HealthCare",
+      "Doctors DrSelect-CFL (HMO)",
+      "H4140-025"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Optimum",
+      "Optimum Platinum Plan (HMO)",
+      "H5594-002"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-078"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-009"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Pasco",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO)",
+      "H1019-103-002"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-003"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-299"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-312"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-082"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-002"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-002"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-CFL (HMO C-SNP)",
+      "H4140-026"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H4571-075"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-119"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-031"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-019"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-025"
+    ],
+    [
+      "Pasco",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-021"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-102"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-019"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-044"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-088"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 024 FL    (HMO-D-SNP)",
+      "H1290-024"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrFullDual-CFL (HMO D-SNP)",
+      "H4140-017"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-082"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-118"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-131"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-135"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-010"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Humana",
+      "Humana Gold Plus Giveback  (HMO)",
+      "H1036-265-001"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "CarePlus",
+      "CareFree Platinum Giveback (HMO)",
+      "H1019-104-002"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "CarePlus",
+      "CareSalute (HMO)",
+      "H1019-132"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Devoted",
+      "Devoted GIVEBACK 051 FL (HMO)",
+      "H1290-051-002"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Optimum",
+      "Optimum Gold Rewards Plan (HMO)",
+      "H5594-001"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Simply",
+      "Simply Extra Platinum (HMO)",
+      "H5471-117"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Wellcare",
+      "Wellcare Patriot Giveback (HMO)",
+      "H1032-239"
+    ],
+    [
+      "Pinellas",
+      "Giveback",
+      "Ultimate Health Plans",
+      "Premier by Ultimate (HMO)",
+      "H2962-045"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Humana",
+      "Humana Gold Plus (HMO)",
+      "H1036-025"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select (HMO)",
+      "H1609-087"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Aetna",
+      "Aetna Medicare Select Extra (HMO)",
+      "H1609-028"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 036 FL (HMO)",
+      "H1290-036-002"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Devoted",
+      "Devoted CORE 065 FL (HMO)",
+      "H1290-065"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Devoted",
+      "Devoted PREMIUM 037 FL (HMO)",
+      "H1290-037-005"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Optimum",
+      "Optimum Platinum Plan (HMO)",
+      "H5594-002"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Simply",
+      "Simply More (HMO)",
+      "H5471-078"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Solis",
+      "Solis Healthy Living Plan (HMO)",
+      "H0982-009"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Unknown",
+      "CareAccess (HMO)",
+      "H1019-144"
+    ],
+    [
+      "Pinellas",
+      "Core Plans",
+      "Unknown",
+      "CareOne Plus (HMO)",
+      "H1019-103-002"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "UnitedHealthcare",
+      "UHC Complete Care FL-14 (HMO-POS-C-SNP)",
+      "H1045-048-003"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)",
+      "H1036-299"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Humana",
+      "Humana Gold Plus Lung (HMO C-SNP)",
+      "H1036-312"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Aetna",
+      "Aetna Medicare Chronic Care (HMO C-SNP)",
+      "H1609-082"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze (HMO C-SNP)",
+      "H1019-154"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "CarePlus",
+      "CareBreeze Platinum        (HMO C-SNP)",
+      "H1019-151-002"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete (HMO C-SNP)",
+      "H1019-150"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "CarePlus",
+      "CareComplete Platinum (HMO C-SNP)",
+      "H1019-147-002"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Plus 089 FL (HMO C-SNP)",
+      "H1290-089"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Devoted",
+      "Devoted C-SNP Premium 069 FL (HMO C-SNP)",
+      "H1290-069"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Simply",
+      "Simply Level (HMO C-SNP)",
+      "H4571-075"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Simply",
+      "Simply Level Platinum       (HMO C-SNP)",
+      "H5471-119"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Dialysis & Kidney Complete (HMO-POS C-SNP)",
+      "H1526-004"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes (HMO-POS C-SNP)",
+      "H1526-001"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "GK / Solis",
+      "GK Gold Heart & Diabetes Complete (HMO-POS C-SNP)",
+      "H1526-002"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "GK / Solis",
+      "Gold Dialysis & Kidney     (HMO-POS C-SNP)",
+      "H1526-003"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Giveback Plan (HMO C-SNP)",
+      "H0982-031"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Solis",
+      "Solis Wellness Plan (HMO C-SNP)",
+      "H0982-019"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care COPD by Ultimate (HMO C-SNP)",
+      "H2962-025"
+    ],
+    [
+      "Pinellas",
+      "C-SNP",
+      "Ultimate Health Plans",
+      "Advantage Care by Ultimate (HMO C-SNP)",
+      "H2962-026"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)",
+      "H2509-003"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "UnitedHealthcare",
+      "UHC Dual Complete Fl-D002 (HMO-POS D-SNP)",
+      "H1045-039"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Humana",
+      "Humana Dual Integrated (HMO D-SNP)",
+      "H1036-340"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Humana",
+      "Humana Fully Integrated (HMO D-SNP)",
+      "H1036-280"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-102"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Humana",
+      "Humana Gold Plus SNP-DE (HMO D-SNP)",
+      "H1036-314"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-019"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Dual Select (HMO D-SNP)",
+      "H1609-044"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Aetna",
+      "Aetna Medicare Full Dual Select (HMO D-SNP)",
+      "H1609-088"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL 024 FL    (HMO-D-SNP)",
+      "H1290-024"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL FULL 082 FL (HMO D-SNP)",
+      "H1290-082"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Devoted",
+      "Devoted DUAL PLUS 052 FL (HMO D-SNP)",
+      "H1290-052"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Full (HMO D-SNP)",
+      "H5427-087"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Freedom",
+      "Freedom Medi-Medi Partial (HMO D-SNP)",
+      "H5427-078"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Full (HMO D-SNP)",
+      "H5594-017"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Optimum",
+      "Optimum Emerald Partial (HMO D-SNP)",
+      "H5594-016"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Simply",
+      "Simply Complete             (HMO D-SNP)",
+      "H5471-082"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Simply",
+      "Simply Complete Platinum (HMO D-SNP)",
+      "H5471-118"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated           (HMO D-SNP)",
+      "H5471-131"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Simply",
+      "Simply Integrated Platinum (HMO D-SNP)",
+      "H5471-135"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Access Sync     (HMO D-SNP)",
+      "H1032-244-001"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Dual Reserve      (HMO D-SNP)",
+      "H1032-202"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Wellcare",
+      "Wellcare Sunshine Health Dual Align (HMO D-SNP)",
+      "H1032-245-001"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Solis",
+      "Solis Guardian Plan (HMO D-SNP)",
+      "H0982-010"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Full (HMO D-SNP)",
+      "H2962-035"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Ultimate Health Plans",
+      "Advantage Plus by Ultimate Partial (HMO D-SNP)",
+      "H2962-036"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Extra               (HMO D-SNP)",
+      "H1019-153"
+    ],
+    [
+      "Pinellas",
+      "D-SNP",
+      "Unknown",
+      "CareNeeds Platinum       (HMO D-SNP)",
+      "H1019-146"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "UnitedHealthcare / AARP (Noncommissionable)",
+      "AARP\u00ae Medicare Advantage from UHC FL-0031 (Regional PPO)",
+      "R0759-001"
+    ],
+    [
+      "Miami-Dade",
+      "Core Plans",
+      "UnitedHealthcare / AARP (Noncommissionable)",
+      "AARP\u00ae Medicare Advantage Patriot No Rx FL-MA01 (Regional PPO)",
+      "R0759-002"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "UnitedHealthcare / AARP (Noncommissionable)",
+      "AARP\u00ae Medicare Advantage from UHC FL-0031 (Regional PPO)",
+      "R0759-001"
+    ],
+    [
+      "Broward",
+      "Core Plans",
+      "UnitedHealthcare / AARP (Noncommissionable)",
+      "AARP\u00ae Medicare Advantage Patriot No Rx FL-MA01 (Regional PPO)",
+      "R0759-002"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Doctors HealthCare",
+      "Doctors DrExtraCare-SFL (HMO C-SNP)",
+      "H4140-024"
+    ],
+    [
+      "Broward",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-SFL (HMO D-SNP)",
+      "H4140-020"
+    ],
+    [
+      "Orange",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Osceola",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Seminole",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Polk",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Hillsborough",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Pasco",
+      "D-SNP",
+      "Doctors HealthCare",
+      "Doctors DrPartialDual-CFL (HMO D-SNP)",
+      "H4140-021"
+    ],
+    [
+      "Miami-Dade",
+      "C-SNP",
+      "Solis",
+      "Solis Balanced Plan (HMO C-SNP)",
+      "Pending official 2027 plan ID"
+    ],
+    [
+      "Broward",
+      "C-SNP",
+      "Solis",
+      "Solis Balanced Plan (HMO C-SNP)",
+      "Pending official 2027 plan ID"
+    ],
+    [
+      "Palm Beach",
+      "C-SNP",
+      "Solis",
+      "Solis Balanced Plan (HMO C-SNP)",
+      "Pending official 2027 plan ID"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "workbookId": "1WCuS2bKtIyEyJjGNTv2cLBieKpYYmzxWa3qBLY4_EfY",
+  "workbookTitle": "MedicareManny 2027 Florida Plan Comparison Engine",
+  "benefitYear": 2027,
+  "overallStatus": "Pending CMS",
+  "previewStatus": "Carrier Preview",
+  "lastReviewed": "2026-08-28",
+  "officialSobLinksCompleted": false,
+  "notes": "2026 SOB links and the CY2026 CMS landscape are historical reference only — not verified 2027 benefits.",
+  "cmsLandscape": {
+    "label": "CY2026 Landscape (202608)",
+    "page": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage",
+    "zip": "https://www.cms.gov/files/zip/cy2026-landscape-202608.zip",
+    "cmsUpdated": "2026-08-10",
+    "cy2027Public": false,
+    "cy2027Expected": "mid-to-late September 2026"
+  },
+  "officialLinks": {
+    "myAccess": "https://myaccess.myflfamilies.com/",
+    "floridaDcfMedicaid": "https://www.myflfamilies.com/medicaid",
+    "ahcaMedicaidEligibility": "https://ahca.myflorida.com/medicaid/medicaid-policy-quality-and-operations/medicaid-policy-and-quality/medicaid-policy/program-policy/eligibility-for-medicaid-services.html",
+    "ssaExtraHelpApply": "https://www.ssa.gov/extrahelp",
+    "ssaExtraHelpInfo": "https://www.ssa.gov/medicare/part-d-extra-help",
+    "medicareExtraHelp": "https://www.medicare.gov/basics/costs/help/drug-costs",
+    "medicareSavingsPrograms": "https://www.medicare.gov/medicare-savings-programs",
+    "medicareGetStarted": "https://www.medicare.gov/basics/get-started-with-medicare",
+    "medicarePlanFinder": "https://www.medicare.gov/plan-compare/",
+    "floridaShine": "https://www.floridashine.org/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    ["County", "Plan Type", "Carrier", "Plan Name", "Plan Number"],
+    ["Miami-Dade", "Giveback", "Humana", "Humana Gold Plus Giveback (HMO)", "H1036-305"],
+    ["Miami-Dade", "D-SNP", "Wellcare", "Wellcare Dual", "H1032-244-001"],
+    ["Broward", "Core Plans", "Doctors HealthCare", "Doctors DrSelect-SFL (HMO)", "H4140-023"],
+    ["Miami-Dade", "C-SNP", "Solis", "Solis Balanced Plan (HMO C-SNP)", "Pending official 2027 plan ID"]
+  ]
+}
