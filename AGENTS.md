@@ -42,7 +42,8 @@ Detailed material belongs in dedicated tabs.
 
 Track at minimum:
 
-- Carrier, plan name, contract/PBP, county, plan type
+- Carrier, plan name, contract_id, pbp_id, segment_id, county, county FIPS, plan type
+- benefit_year, target_plan_year, verification_class, source dataset/version
 - Premium, Part B giveback, MOOP
 - PCP, specialist, hospital, ER, urgent care, MRI/CT, labs
 - Dental, vision, hearing, OTC, food/utilities, transportation, Part D

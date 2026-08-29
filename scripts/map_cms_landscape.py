@@ -41,10 +41,71 @@ COUNTY_ALIASES = {
     "Miami-Dade": "Miami-Dade",
 }
 
+# Official five-digit county FIPS. State prefix 12 = Florida.
+COUNTY_FIPS = {
+    "Broward": "12011",
+    "Hillsborough": "12057",
+    "Miami-Dade": "12086",
+    "Orange": "12095",
+    "Osceola": "12097",
+    "Palm Beach": "12099",
+    "Pasco": "12101",
+    "Pinellas": "12103",
+    "Polk": "12105",
+    "Seminole": "12117",
+}
+
 CMS_ZIP_URL = "https://www.cms.gov/files/zip/cy2026-landscape-202608.zip"
 CMS_SOURCE_PAGE = "https://www.cms.gov/medicare/coverage/prescription-drug-coverage"
 CMS_FILE_LABEL = "CY2026 Landscape (202608)"
+CMS_DATASET = "CY2026_Landscape"
+CMS_SOURCE_VERSION = "202608"
 CMS_UPDATED = "2026-08-10"
+BENEFIT_YEAR = 2026
+TARGET_PLAN_YEAR = 2027
+MAPPED_ON = "2026-08-28"
+
+VERIFICATION_HISTORICAL = "historical_2026"
+VERIFICATION_UNMATCHED = "unmatched_historical"
+VERIFICATION_PRELIMINARY = "preliminary_2027"
+VERIFICATION_VERIFIED = "verified_2027"
+
+CSV_FIELDS = [
+    "county",
+    "county_fips",
+    "plan_type",
+    "carrier",
+    "workbook_plan_name",
+    "plan_number",
+    "contract_id",
+    "pbp_id",
+    "segment_id",
+    "segment_explicit",
+    "contract_pbp",
+    "benefit_year",
+    "target_plan_year",
+    "verification_class",
+    "match_status",
+    "cms_contract_id",
+    "cms_pbp_id",
+    "cms_segment_id",
+    "cms_plan_name",
+    "cms_org",
+    "cms_plan_type",
+    "cms_snp_type",
+    "cms_premium",
+    "cms_moop",
+    "cms_overall_stars",
+    "cms_sanctioned",
+    "cms_county",
+    "source_dataset",
+    "source_version",
+    "source_url",
+    "source_page",
+    "source_updated",
+    "mapped_on",
+    "benefit_year_status",
+]
 
 
 def normalize_county(name: str) -> str:
@@ -52,19 +113,33 @@ def normalize_county(name: str) -> str:
     return COUNTY_ALIASES.get(name, name)
 
 
+def county_fips(name: str) -> str:
+    return COUNTY_FIPS.get(normalize_county(name), "")
+
+
 def parse_plan_number(plan_number: str) -> dict:
     raw = (plan_number or "").strip().upper()
     if not raw or raw.startswith("PENDING"):
-        return {"raw": raw, "contract": "", "pbp": "", "segment": "", "key": ""}
+        return {
+            "raw": raw,
+            "contract": "",
+            "pbp": "",
+            "segment": "",
+            "segment_explicit": False,
+            "key": "",
+            "segment_key": "",
+        }
     parts = [p for p in raw.replace("_", "-").split("-") if p]
     contract = parts[0] if parts else ""
     pbp = parts[1].zfill(3) if len(parts) > 1 else ""
-    segment = parts[2].lstrip("0") or "0" if len(parts) > 2 else "0"
+    segment_explicit = len(parts) > 2
+    segment = (parts[2].lstrip("0") or "0") if segment_explicit else "0"
     return {
         "raw": raw,
         "contract": contract,
         "pbp": pbp,
         "segment": segment,
+        "segment_explicit": segment_explicit,
         "key": f"{contract}{pbp}",
         "segment_key": f"{contract}{pbp}{segment}",
     }
@@ -90,20 +165,39 @@ def iter_florida_landscape(zip_path: Path):
     with zipfile.ZipFile(zip_path) as zf:
         csv_name = next(n for n in zf.namelist() if n.endswith(".csv"))
         with zf.open(csv_name) as raw:
-            reader = csv.DictReader(line.decode("utf-8-sig") for line in raw)
-            for row in reader:
-                if row.get("State Territory Abbreviation") != "FL":
-                    continue
-                county = normalize_county(row.get("County Name", ""))
-                if county not in TARGET_COUNTIES and county != "Miami-Dade":
-                    continue
-                parsed = parse_plan_number(
-                    f"{row.get('Contract ID', '')}-{row.get('Plan ID', '')}-{row.get('Segment ID', '0')}"
-                )
-                row["_county"] = county
-                row["_key"] = parsed["key"]
-                row["_segment_key"] = parsed["segment_key"]
-                yield row
+            yield from iter_landscape_rows(line.decode("utf-8-sig") for line in raw)
+
+
+def iter_landscape_rows(lines) -> list[dict]:
+    reader = csv.DictReader(lines)
+    rows = []
+    for row in reader:
+        if row.get("State Territory Abbreviation") not in {None, "", "FL"}:
+            continue
+        county = normalize_county(row.get("County Name", ""))
+        if county not in TARGET_COUNTIES:
+            continue
+        parsed = parse_plan_number(
+            f"{row.get('Contract ID', '')}-{row.get('Plan ID', '')}-{row.get('Segment ID', '0')}"
+        )
+        row["_county"] = county
+        row["_key"] = parsed["key"]
+        row["_segment_key"] = parsed["segment_key"]
+        row["_contract"] = parsed["contract"]
+        row["_pbp"] = parsed["pbp"]
+        row["_segment"] = parsed["segment"]
+        rows.append(row)
+    return rows
+
+
+def verification_for(status: str) -> str:
+    if status == "Pending official 2027 plan ID":
+        return VERIFICATION_PRELIMINARY
+    if status == "Not in CY2026 landscape":
+        return VERIFICATION_UNMATCHED
+    if status.startswith("CMS 2026"):
+        return VERIFICATION_HISTORICAL
+    raise ValueError(f"Unmapped match status: {status}")
 
 
 def match(plans: list[dict], landscape_rows: list[dict]) -> dict:
@@ -136,16 +230,28 @@ def match(plans: list[dict], landscape_rows: list[dict]) -> dict:
         else:
             status = "Not in CY2026 landscape"
             cms = None
+        verification_class = verification_for(status)
         matches.append(
             {
                 "workbook_row": plan["_row"],
                 "county": county,
+                "county_fips": county_fips(county),
                 "plan_type": plan.get("Plan Type", ""),
                 "carrier": plan.get("Carrier", ""),
                 "workbook_plan_name": plan.get("Plan Name", ""),
                 "plan_number": plan.get("Plan Number", ""),
+                "contract_id": plan.get("_contract", ""),
+                "pbp_id": plan.get("_pbp", ""),
+                "segment_id": plan.get("_segment", ""),
+                "segment_explicit": bool(plan.get("_segment_explicit")),
                 "contract_pbp": key,
+                "benefit_year": BENEFIT_YEAR,
+                "target_plan_year": TARGET_PLAN_YEAR,
+                "verification_class": verification_class,
                 "match_status": status,
+                "cms_contract_id": (cms or {}).get("_contract") or (cms or {}).get("Contract ID", ""),
+                "cms_pbp_id": (cms or {}).get("_pbp") or "",
+                "cms_segment_id": (cms or {}).get("_segment") or "",
                 "cms_plan_name": (cms or {}).get("Plan Name", ""),
                 "cms_org": (cms or {}).get("Organization Marketing Name", ""),
                 "cms_plan_type": (cms or {}).get("Plan Type", ""),
@@ -156,35 +262,52 @@ def match(plans: list[dict], landscape_rows: list[dict]) -> dict:
                 "cms_overall_stars": (cms or {}).get("Overall Star Rating", ""),
                 "cms_sanctioned": (cms or {}).get("Sanctioned Plan", ""),
                 "cms_county": (cms or {}).get("_county", ""),
+                "source_dataset": CMS_DATASET,
+                "source_version": CMS_SOURCE_VERSION,
+                "source_url": CMS_ZIP_URL,
+                "source_page": CMS_SOURCE_PAGE,
+                "source_updated": CMS_UPDATED,
+                "mapped_on": MAPPED_ON,
                 "benefit_year_status": "Historical 2026 CMS reference only — not verified 2027 benefits",
             }
         )
     return {
-        "source": {
-            "label": CMS_FILE_LABEL,
-            "url": CMS_ZIP_URL,
-            "page": CMS_SOURCE_PAGE,
-            "cms_updated": CMS_UPDATED,
-            "mapped_on": "2026-08-28",
-            "note": "CY2027 landscape is not public until mid-to-late September 2026.",
-        },
+        "source": source_block(),
         "summary": summarize(matches),
         "matches": matches,
     }
 
 
+def source_block() -> dict:
+    return {
+        "dataset": CMS_DATASET,
+        "label": CMS_FILE_LABEL,
+        "version": CMS_SOURCE_VERSION,
+        "url": CMS_ZIP_URL,
+        "page": CMS_SOURCE_PAGE,
+        "cms_updated": CMS_UPDATED,
+        "benefit_year": BENEFIT_YEAR,
+        "target_plan_year": TARGET_PLAN_YEAR,
+        "mapped_on": MAPPED_ON,
+        "note": "CY2027 landscape is not public until mid-to-late September 2026. Historical 2026 matches are not verified 2027 benefits.",
+    }
+
+
 def summarize(matches: list[dict]) -> dict:
     counts = Counter(m["match_status"] for m in matches)
+    classes = Counter(m["verification_class"] for m in matches)
     unique_ids = {m["plan_number"] for m in matches}
     unmatched_ids = {
         m["plan_number"]
         for m in matches
-        if m["match_status"] in {"Not in CY2026 landscape", "Pending official 2027 plan ID"}
+        if m["verification_class"] in {VERIFICATION_UNMATCHED, VERIFICATION_PRELIMINARY}
     }
     return {
         "workbook_rows": len(matches),
         "unique_plan_numbers": len(unique_ids),
+        "segment_explicit_rows": sum(1 for m in matches if m["segment_explicit"]),
         "status_counts": dict(counts),
+        "verification_class_counts": dict(classes),
         "unmatched_plan_numbers": sorted(unmatched_ids),
     }
 
@@ -193,26 +316,8 @@ def write_outputs(result: dict, out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "cms-match-2026.json").write_text(json.dumps(result, indent=2))
     csv_path = out_dir / "cms-match-2026.csv"
-    fields = [
-        "county",
-        "plan_type",
-        "carrier",
-        "workbook_plan_name",
-        "plan_number",
-        "contract_pbp",
-        "match_status",
-        "cms_plan_name",
-        "cms_org",
-        "cms_plan_type",
-        "cms_snp_type",
-        "cms_premium",
-        "cms_moop",
-        "cms_overall_stars",
-        "cms_sanctioned",
-        "benefit_year_status",
-    ]
     with csv_path.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(result["matches"])
     (out_dir / "cms-match-2026-summary.json").write_text(

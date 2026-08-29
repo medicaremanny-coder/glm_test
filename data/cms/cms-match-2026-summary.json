@@ -1,19 +1,29 @@
 {
   "source": {
+    "dataset": "CY2026_Landscape",
     "label": "CY2026 Landscape (202608)",
+    "version": "202608",
     "url": "https://www.cms.gov/files/zip/cy2026-landscape-202608.zip",
     "page": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage",
     "cms_updated": "2026-08-10",
+    "benefit_year": 2026,
+    "target_plan_year": 2027,
     "mapped_on": "2026-08-28",
-    "note": "CY2027 landscape is not public until mid-to-late September 2026."
+    "note": "CY2027 landscape is not public until mid-to-late September 2026. Historical 2026 matches are not verified 2027 benefits."
   },
   "summary": {
     "workbook_rows": 724,
     "unique_plan_numbers": 276,
+    "segment_explicit_rows": 70,
     "status_counts": {
       "CMS 2026 county + segment match": 693,
       "Not in CY2026 landscape": 28,
       "Pending official 2027 plan ID": 3
+    },
+    "verification_class_counts": {
+      "historical_2026": 693,
+      "unmatched_historical": 28,
+      "preliminary_2027": 3
     },
     "unmatched_plan_numbers": [
       "H4140-020",

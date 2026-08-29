@@ -40,6 +40,13 @@ First pass against **CY2026 Landscape (202608)**:
 
 Those matches are historical 2026 CMS reference only until the 2027 landscape is published (expected mid-to-late September 2026).
 
+The production CSV now splits `contract_id`, `pbp_id`, `segment_id`, `county_fips`, `benefit_year`, and source-version fields. `contract_pbp` is a derived join key only.
+
+```bash
+python3 -m unittest tests.test_cms_match -v
+bash scripts/refresh_cms_landscape.sh 2026 202608
+```
+
 See `docs/cms-mapping.md` and the **CMS Match** tab. Codex owns Home / Reference / Carrier Resources design.
 
 ## Data
